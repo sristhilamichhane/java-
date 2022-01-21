@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\java 2078\eclipse-workspace\Barchart\.metadata\.plugins\org.eclipse.jdt.core
+690043582.index
+1210658807.index

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <LineChart fx:id="linechart" layoutX="87.0" layoutY="24.0" style="-fx-background-color: skyblue;" title="BE.SOFTWARE(3rd semester result)">
+        <xAxis>
+          <CategoryAxis fx:id="categoryAxis" label="SUBJECT" side="BOTTOM" tickLabelFill="#cc2190" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="numberAxis" label="Number Gained" side="LEFT" tickLabelFill="#c71565" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>

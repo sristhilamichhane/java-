@@ -5,14 +5,14 @@ abstract class Apple
 		System.out.println("sweet");
 	}*/
 }
-public class AbstractClass {
+public class AbstractClass extends Apple {
 	void taste()
 	{
 		System.out.println("sweet");	
 	}
 
 	public static void main(String[] args) {
-		AbstractClass a=new AbstractClass();
+		Apple a=new AbstractClass();
         a.taste();
 	}
 
